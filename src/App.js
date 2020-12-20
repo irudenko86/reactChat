@@ -8,6 +8,8 @@ import { AlertState } from './context/alert/AlertState';
 import { FirebaseState } from './context/firebase/Firebase.State';
 import { SliderPage } from './pages/SliderPage';
 import styled from 'styled-components';
+import { ReduxPage } from './pages/ReduxPage';
+import { ReduxPractice } from './pages/ReduxPractice';
 
 const Styles = styled.div `
     a, .navbar-nav, .nav-link {
@@ -48,6 +50,8 @@ function App() {
                 <Route path={'/'} exact component={Home} />
                 <Route path={'/about'} exact component={About} />
                 <Route path={'/slider-page'} exact component={SliderPage} />
+                <Route path={'/redux-page'} exact component={ReduxPage} />
+                <Route path={'/redux-practice'} exact component={ReduxPractice} />
               </Switch>
             </div>
           </BrowserRouter>

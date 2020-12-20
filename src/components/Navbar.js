@@ -30,6 +30,20 @@ export const Navbar = () => (
                 >Слайдер
                 </NavLink>
             </li>
+            <li className="nav-item">
+                <NavLink
+                    className="nav-link"
+                    to="/redux-page"
+                >Redux Теория
+                </NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink
+                    className="nav-link"
+                    to="/redux-practice"
+                >Redux Практика
+                </NavLink>
+            </li>
         </ul>
 
     </nav>
