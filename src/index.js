@@ -32,7 +32,9 @@ const store = createStore(rootReducer, 0); // у этого объекта уж�
 // window.store = store; // проверял в консоли как работают методы редюсера
 
 
-console.log(addBtn);
+if (addBtn, counter, subBtn) {
+
+  console.log(addBtn);
 
 addBtn.addEventListener('click', () => {
   store.dispatch( increment());
@@ -57,14 +59,12 @@ store.dispatch( {type: 'INIT__APPLICATION'})
 // подписываемся на изменения, следим за ними. Проверил в консоли что работает
 // store.subscribe( () => console.log(store.getState())) 
 
-
-
-
-
-
 // themeBtn.addEventListener('click', () => {
 //   // document.querySelector('.wrapper-theme').classList.toggle('dark');
 // })
+}
+
+
 
 
 
