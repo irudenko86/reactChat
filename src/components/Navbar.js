@@ -41,7 +41,7 @@ export const Navbar = () => (
                 <NavLink
                     className="nav-link"
                     to="/redux-practice"
-                >Redux Практика
+                >Redux Практика (!!! Нужно обновить страницу, чтоб заработало !!!)
                 </NavLink>
             </li>
         </ul>

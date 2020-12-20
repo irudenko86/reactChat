@@ -34,7 +34,7 @@ const store = createStore(rootReducer, 0); // у этого объекта уж�
 
 if (addBtn, counter, subBtn) {
 
-  console.log(addBtn);
+console.log(addBtn);
 
 addBtn.addEventListener('click', () => {
   store.dispatch( increment());
