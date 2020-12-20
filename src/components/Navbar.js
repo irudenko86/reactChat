@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import {NavLink} from 'react-router-dom';
 
 export const Navbar = () => (
-    <nav className="navbar navbar-dark navbar-expand-lg bg-primary">
+    <nav className="navbar navbar-expand-lg bg-primary">
         <div className="navbar-brand">
             Chat App
         </div>
@@ -13,7 +13,7 @@ export const Navbar = () => (
                     className="nav-link"
                     to="/"
                     exact
-                >Главная страница - чат/ToDo
+                >Главная страница
                 </NavLink>
             </li>
             <li className="nav-item">
@@ -21,6 +21,13 @@ export const Navbar = () => (
                     className="nav-link"
                     to="/about"
                 >Что я использовал и релизовал 
+                </NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink
+                    className="nav-link"
+                    to="/slider-page"
+                >Слайдер
                 </NavLink>
             </li>
         </ul>
