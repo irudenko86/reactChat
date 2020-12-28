@@ -29,7 +29,7 @@ export const ReduxPage = () => (
             <li>Store объединяет Action и Reducer. Хранит состояние приложения</li>
             <li>Store дает доступ к State через ф-ию getState(). И менять State через ф-ию dispatch()</li>
             <li>В dispatch() мы кладем Action с типом с payload и дальше диспатчим Action который потом попадет в Reducer</li>
-            <li>Store может регистрировать подписчиков через ф-ию subscribe()</li>
+            <li>Store может регистрировать подписчиков через ф-ию subscribe()</li>  
             <hr/>
             <h3>Flow. Как работает Redux, движение данных в Redux</h3>
             <li>Вызываем dispatch() из Store и передаем в нее Action</li>

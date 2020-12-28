@@ -59,9 +59,9 @@ store.dispatch( {type: 'INIT__APPLICATION'})
 // подписываемся на изменения, следим за ними. Проверил в консоли что работает
 // store.subscribe( () => console.log(store.getState())) 
 
-// themeBtn.addEventListener('click', () => {
-//   // document.querySelector('.wrapper-theme').classList.toggle('dark');
-// })
+themeBtn.addEventListener('click', () => {
+  document.querySelector('.wrapper-theme').classList.toggle('dark');
+})
 }
 
 

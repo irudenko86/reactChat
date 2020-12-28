@@ -48,10 +48,10 @@ function App() {
               <Alert />
               <Switch>
                 <Route path={'/'} exact component={Home} />
-                <Route path={'/about'} exact component={About} />
-                <Route path={'/slider-page'} exact component={SliderPage} />
-                <Route path={'/redux-page'} exact component={ReduxPage} />
-                <Route path={'/redux-practice'} exact component={ReduxPractice} />
+                <Route path={'/about'}  component={About} />
+                <Route path={'/slider-page'}  component={SliderPage} />
+                <Route path={'/redux-page'}  component={ReduxPage} />
+                <Route path={'/redux-practice'}  component={ReduxPractice} />
               </Switch>
             </div>
           </BrowserRouter>
